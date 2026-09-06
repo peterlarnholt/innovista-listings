@@ -809,5 +809,27 @@
   "previous_price": null,
   "note": null,
   "updated": "2026-09-06"
+ },
+ {
+  "url": "",
+  "slug": "casa-palmar",
+  "title": "Casa Palmar",
+  "id": "11301",
+  "price": "$1,850,000 USD",
+  "type": "House / Villa",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "size": "410 m",
+  "land": null,
+  "neighbourhood": "Conchas Chinas",
+  "status": "new",
+  "description": "Ocean view with infinity pool.",
+  "images": [
+   "photos/casa-palmar.jpg"
+  ],
+  "price_num": 1850000,
+  "previous_price": null,
+  "note": "Ready to show from next week.",
+  "updated": "2026-09-06"
  }
 ]
