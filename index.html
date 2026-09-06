@@ -54,9 +54,13 @@ footer .pub{display:inline-flex;align-items:center;gap:8px;background:var(--sand
 <header><div class="wrap top"><a class="brand" href="index.html">Innovista<small>Puerto Vallarta · Boutique Real Estate</small></a>
 <nav><a href="index.html">Listings</a><a href="https://innovista.com.mx/about-us/">About</a><a href="https://innovista.com.mx/contact-us/">Contact</a></nav></div></header>
 <section class="hero"><div class="wrap"><h1>Homes, condos and land on the Bay of Banderas</h1>
-<p>Curated listings from Innovista, Puerto Vallarta's boutique real-estate agency. Updated 6 September 2026, 17:30 UTC.</p>
-<div class="stats"><div class="stat"><b>28</b><span>Available</span></div><div class="stat"><b>2</b><span>Price reduced</span></div><div class="stat"><b>0</b><span>New this week</span></div><div class="stat"><b>0</b><span>Recently sold</span></div></div></div></section>
-<div class="wrap"><div class="filters"><span class="chip on" data-f="all">All</span><span class="chip" data-f="condo">Condo</span><span class="chip" data-f="house / villa">House / Villa</span><span class="chip" data-f="land">Land</span><span class="chip" data-f="villa">Villa</span><span class="chip" data-f="reduced">Price reduced</span></div><div class="grid"><a class="card reduced" data-type="condo" data-status="reduced" href="property/ocean-front-arco-mayor.html">
+<p>Curated listings from Innovista, Puerto Vallarta's boutique real-estate agency. Updated 6 September 2026, 17:53 UTC.</p>
+<div class="stats"><div class="stat"><b>28</b><span>Available</span></div><div class="stat"><b>3</b><span>Price reduced</span></div><div class="stat"><b>0</b><span>New this week</span></div><div class="stat"><b>0</b><span>Recently sold</span></div></div></div></section>
+<div class="wrap"><div class="filters"><span class="chip on" data-f="all">All</span><span class="chip" data-f="condo">Condo</span><span class="chip" data-f="house / villa">House / Villa</span><span class="chip" data-f="land">Land</span><span class="chip" data-f="villa">Villa</span><span class="chip" data-f="reduced">Price reduced</span></div><div class="grid"><a class="card reduced" data-type="house / villa" data-status="reduced" href="property/casa-sur.html">
+<div class="ph"><img loading="lazy" src="https://innovista.com.mx/wp-content/uploads/2024/09/Santa-Barbara-400-34-scaled.jpg" alt="" onerror="this.style.display='none'"><span class="badge reduced">Price reduced</span></div>
+<div class="body"><div class="price"><s>$2,350,000 USD</s>$2,200,000 USD</div><div class="title">Casa Sur</div>
+<div class="meta">Romantic Zone · House / Villa · ID 9807</div>
+<div class="specs"><span><b>5</b> bd</span><span><b>3</b> ba</span><span><b>471 m</b>²</span></div></div></a><a class="card reduced" data-type="condo" data-status="reduced" href="property/ocean-front-arco-mayor.html">
 <div class="ph"><img loading="lazy" src="https://innovista.com.mx/wp-content/uploads/2024/08/DJI_0512.jpg" alt="" onerror="this.style.display='none'"><span class="badge reduced">Price reduced</span></div>
 <div class="body"><div class="price">$1,395,000 USD</div><div class="title">Ocean Front Condo, Arco Mayor</div>
 <div class="meta">South Shore · Condo · ID 8136</div>
@@ -80,11 +84,7 @@ footer .pub{display:inline-flex;align-items:center;gap:8px;background:var(--sand
 <div class="ph"><img loading="lazy" src="https://innovista.com.mx/wp-content/uploads/2024/09/Casa-LAPALAPA-HIghlights-video.00_00_05_02.Still001.jpg" alt="" onerror="this.style.display='none'"><span class="badge sale">For sale</span></div>
 <div class="body"><div class="price">$2,350,000 USD</div><div class="title">Casa Lapa Lapa</div>
 <div class="meta">South Shore · Villa · ID 8872</div>
-<div class="specs"><span><b>5</b> bd</span><span><b>5.5</b> ba</span><span><b>796 m</b>²</span></div></div></a><a class="card sale" data-type="house / villa" data-status="sale" href="property/casa-sur.html">
-<div class="ph"><img loading="lazy" src="https://innovista.com.mx/wp-content/uploads/2024/09/Santa-Barbara-400-34-scaled.jpg" alt="" onerror="this.style.display='none'"><span class="badge sale">For sale</span></div>
-<div class="body"><div class="price">$2,350,000 USD</div><div class="title">Casa Sur</div>
-<div class="meta">Romantic Zone · House / Villa · ID 9807</div>
-<div class="specs"><span><b>5</b> bd</span><span><b>3</b> ba</span><span><b>471 m</b>²</span></div></div></a><a class="card sale" data-type="condo" data-status="sale" href="property/avalon-901.html">
+<div class="specs"><span><b>5</b> bd</span><span><b>5.5</b> ba</span><span><b>796 m</b>²</span></div></div></a><a class="card sale" data-type="condo" data-status="sale" href="property/avalon-901.html">
 <div class="ph"><img loading="lazy" src="https://innovista.com.mx/wp-content/uploads/2024/09/DJI_0996.jpg" alt="" onerror="this.style.display='none'"><span class="badge sale">For sale</span></div>
 <div class="body"><div class="price">$2,300,000 USD</div><div class="title">Avalon 901</div>
 <div class="meta">Amapas · Condo · ID 9347</div>
@@ -170,5 +170,5 @@ footer .pub{display:inline-flex;align-items:center;gap:8px;background:var(--sand
 <div class="meta">Conchas Chinas · Villa · ID 7828</div>
 <div class="specs"><span><b>6</b> bd</span><span><b>6.5</b> ba</span><span><b>315 m</b>²</span></div></div></a></div></div>
 <script>document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');const f=c.dataset.f;document.querySelectorAll('.card').forEach(k=>{k.style.display=(f==='all'||k.dataset.type===f||k.dataset.status===f)?'':'none'})})</script>
-<footer><div class="wrap"><div class="pub"><span class="dot"></span> Published from Anycast · 6 September 2026, 17:30 UTC</div>
+<footer><div class="wrap"><div class="pub"><span class="dot"></span> Published from Anycast · 6 September 2026, 17:53 UTC</div>
 <div>Innovista · Puerto Vallarta, Jalisco, México · <a href="https://innovista.com.mx">innovista.com.mx</a></div></div></footer></body></html>
