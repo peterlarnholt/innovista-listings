@@ -265,14 +265,14 @@
   "slug": "casa-sur",
   "title": "Casa Sur",
   "id": "9807",
-  "price": "$2,200,000 USD",
+  "price": "$2,350,000 USD",
   "type": "House / Villa",
   "bedrooms": "5",
   "bathrooms": "3",
   "size": "471 m",
   "land": null,
   "neighbourhood": "Romantic Zone",
-  "status": "reduced",
+  "status": "for-sale",
   "description": "",
   "images": [
    "https://innovista.com.mx/wp-content/uploads/2024/09/Santa-Barbara-400-34-scaled.jpg",
@@ -284,8 +284,8 @@
    "https://innovista.com.mx/wp-content/uploads/2024/09/Santa-Barbara-400-6.jpg",
    "https://innovista.com.mx/wp-content/uploads/2024/09/Santa-Barbara-400-7.jpg"
   ],
-  "price_num": 2200000,
-  "previous_price": "$2,350,000 USD",
+  "price_num": 2350000,
+  "previous_price": null,
   "note": null,
   "updated": "2026-09-06"
  },
